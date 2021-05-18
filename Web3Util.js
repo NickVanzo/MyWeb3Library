@@ -1,7 +1,10 @@
 /**
- * license: MIT
+ * Copyright © MIT
+ * To install metamask/onboarding go to the project directory and run "npx install metamask/onboarding" if 
+ * you are using npm installer.
+ * Security issue: as far as I know there's a newer method to connect with your MetaMask wallet 
+ * but I could't figure out how to make it work, for more info go to this link:https://docs.metamask.io/guide/provider-migration.html#replacing-window-web3
  */
-
 import MetaMaskOnboarding from "@metamask/onboarding";
 
 const forwarderOrigin = 'http://localhost:3000';
